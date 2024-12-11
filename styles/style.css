@@ -94,6 +94,7 @@ a{
     font-size: 1.8rem;
     color: #fff;
     background-color: var(--black-color);
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -258,10 +259,12 @@ a{
 
 .products .box-container .box .box-head .title{
     font-size: 1.4rem;
+    text-transform: capitalize;
 }
 
 .products .box-container .box .box-head .name{
     font-size: 4rem;
+    text-transform: capitalize;
     font-weight: bold;
     overflow-wrap: anywhere;
 }
@@ -288,4 +291,172 @@ a{
     height: 100%;
     transform: unset;
 }
+
+.products .box-container .box-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.products .box-container .box-bottom .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.products .box-container .box-bottom .info .price{
+    font-size: 3rem;   
+}
+
+.products .box-container .box-bottom .info .amount{
+    font-size: 1.4rem;   
+}
+
+.products .box-container .dark-bg .box-bottom .info .price,
+.products .box-container .dark-bg .box-bottom .info .amount{
+    color: #fff;
+}
+
+
+.products .box-container .box-bottom .products-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    border: 0.2rem solid var(--main-color);
+}
+
+.products .box-container .box-bottom .products-btn a i{
+    font-size: 1.6rem;
+    color: var(--main-color);
+}
 /* Products end */
+
+/* About Start */
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
+.about .row .image{
+    flex: 1 1 45rem;    
+}
+.about .row img{
+    width: 100%;  
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+/* About End */
+
+/* Review Start */
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: #fff;
+    border-radius: 3rem;
+}
+.review .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: 2rem 0;
+}
+
+.review .box-container .box .user{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.review .box-container .box .stars i{
+    font-size: 1.5rem;
+    color: gold;
+}
+/* Review End */
+
+/* Contact Start */
+
+.contact .row{
+    display: flex;
+    background-color: var(--black-color);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    border: var(--border);
+}
+
+.contact .row form .inputBox i{
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+
+.contact .row form .btn{
+    color: var(--main-color);
+    background-color: #fff;
+    font-weight: bold;
+}
+/* Contact End */
