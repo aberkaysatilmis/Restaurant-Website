@@ -1,7 +1,7 @@
-# Yemek Dükkanı Site Arayüzü
+# Restoran Site Arayüzü
 
-Bu proje HTML5, CSS3 ve JavaScript ile oluşturulmuş Restoran websitesi Front End projesidir.
-Blog menüsü,müşteri yorumları,sosyal medya hesapları,konum bilgisi,iletişim alanı ile akıllardaki soruları çözüm sunar.
+Bu proje HTML5, CSS3 ve JavaScript ile oluşturulmuş Restoran sitesi Front End projesidir. </br>
+Blog menüsü,müşteri yorumları,sosyal medya hesapları,konum bilgisi,iletişim alanı ile akıllardaki soruları çözüm sunar. </br>
 Ayrıca duyarlı tasarımı ile telefon,tablet,bilgisayar üzerinden kolay erişim olanağı sunar.
 
 # Kullanılan Teknolojiler
