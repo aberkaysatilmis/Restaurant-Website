@@ -13,8 +13,6 @@ Ayrıca duyarlı tasarımı ile telefon,tablet,bilgisayar üzerinden kolay eriş
 
 # Ekran Görüntüsü
 
-![image](https://github.com/user-attachments/assets/234af39d-d997-4d6e-ab37-cf243a280d4c)
-
 ![image](https://github.com/user-attachments/assets/fb9ad63e-0509-4ba0-bb53-3b1fac7f3b8c)
 
 ![image](https://github.com/user-attachments/assets/c125ca54-8ffc-4165-8b4d-9eb06975e6f0)
